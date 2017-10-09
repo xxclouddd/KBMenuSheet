@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1B71981EE52948003123CE /* MSModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B71971EE52948003123CE /* MSModule.m */; };
+		9D210E8F1ED6D5D400A357A4 /* address.db in Resources */ = {isa = PBXBuildFile; fileRef = 9D210E8E1ED6D5D400A357A4 /* address.db */; };
+		9D210E921ED6D66500A357A4 /* KBAddressPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D210E911ED6D66500A357A4 /* KBAddressPickerController.m */; };
+		9D210E951ED7C82600A357A4 /* KBAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D210E941ED7C82600A357A4 /* KBAddressProvider.m */; };
+		9D210E981ED7C83300A357A4 /* KBAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D210E971ED7C83300A357A4 /* KBAddress.m */; };
+		9D6A8FC91F1C9829001B2865 /* KBGenderPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A8FC81F1C9829001B2865 /* KBGenderPickerController.m */; };
+		9D836B011E6819FC005D2715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B001E6819FC005D2715 /* main.m */; };
+		9D836B041E6819FC005D2715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B031E6819FC005D2715 /* AppDelegate.m */; };
+		9D836B071E6819FC005D2715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B061E6819FC005D2715 /* ViewController.m */; };
+		9D836B0A1E6819FC005D2715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D836B081E6819FC005D2715 /* Main.storyboard */; };
+		9D836B0C1E6819FC005D2715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D836B0B1E6819FC005D2715 /* Assets.xcassets */; };
+		9D836B0F1E6819FC005D2715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D836B0D1E6819FC005D2715 /* LaunchScreen.storyboard */; };
+		9D836B461E681A20005D2715 /* KBActivityItemCopyToPasteboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B191E681A20005D2715 /* KBActivityItemCopyToPasteboardView.m */; };
+		9D836B471E681A20005D2715 /* KBActivityItemMailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B1B1E681A20005D2715 /* KBActivityItemMailView.m */; };
+		9D836B481E681A20005D2715 /* KBActivityItemMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B1D1E681A20005D2715 /* KBActivityItemMessageView.m */; };
+		9D836B491E681A20005D2715 /* KBActivityItemQQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B1F1E681A20005D2715 /* KBActivityItemQQView.m */; };
+		9D836B4A1E681A20005D2715 /* KBActivityItemQQZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B211E681A20005D2715 /* KBActivityItemQQZoneView.m */; };
+		9D836B4B1E681A20005D2715 /* KBActivityItemWeChatMomentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B231E681A20005D2715 /* KBActivityItemWeChatMomentView.m */; };
+		9D836B4C1E681A20005D2715 /* KBActivityItemWeChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B251E681A20005D2715 /* KBActivityItemWeChatView.m */; };
+		9D836B4D1E681A20005D2715 /* KBActivityItemWeiboView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B271E681A20005D2715 /* KBActivityItemWeiboView.m */; };
+		9D836B4E1E681A20005D2715 /* KBActivityItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B291E681A20005D2715 /* KBActivityItemView.m */; };
+		9D836B4F1E681A20005D2715 /* KBActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B2B1E681A20005D2715 /* KBActivityViewController.m */; };
+		9D836B501E681A20005D2715 /* KBCustomMenuSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B2D1E681A20005D2715 /* KBCustomMenuSheetView.m */; };
+		9D836B511E681A20005D2715 /* KBDimmingBackdropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B2F1E681A20005D2715 /* KBDimmingBackdropView.m */; };
+		9D836B521E681A20005D2715 /* KBInterfaceActionGroupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B311E681A20005D2715 /* KBInterfaceActionGroupHeaderView.m */; };
+		9D836B531E681A20005D2715 /* KBInterfaceActionGroupSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B331E681A20005D2715 /* KBInterfaceActionGroupSequenceView.m */; };
+		9D836B541E681A20005D2715 /* KBInterfaceActionGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B351E681A20005D2715 /* KBInterfaceActionGroupView.m */; };
+		9D836B551E681A20005D2715 /* KBMenuSheetButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B371E681A20005D2715 /* KBMenuSheetButtonItemView.m */; };
+		9D836B561E681A20005D2715 /* KBMenuSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B391E681A20005D2715 /* KBMenuSheetController.m */; };
+		9D836B571E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B3B1E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.m */; };
+		9D836B581E681A20005D2715 /* KBMenuSheetHeaderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B3D1E681A20005D2715 /* KBMenuSheetHeaderItemView.m */; };
+		9D836B591E681A20005D2715 /* KBMenuSheetItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B3F1E681A20005D2715 /* KBMenuSheetItemView.m */; };
+		9D836B5A1E681A20005D2715 /* KBMenuSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B411E681A20005D2715 /* KBMenuSheetPresentationController.m */; };
+		9D836B5B1E681A20005D2715 /* KBMenuSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B431E681A20005D2715 /* KBMenuSheetView.m */; };
+		9D836B5C1E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D836B451E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.m */; };
+		9D9359EB1F56920400C375B9 /* KBCustomActivityItemMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9359EA1F56920400C375B9 /* KBCustomActivityItemMessageView.m */; };
+		CB0F712B86923B663E38E202 /* libPods-KBMenuSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 831AC17D98A7C32C9CACE5DB /* libPods-KBMenuSheet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831AC17D98A7C32C9CACE5DB /* libPods-KBMenuSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBMenuSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6DB08BC525029C035DA7B6 /* Pods-KBMenuSheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBMenuSheet.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBMenuSheet/Pods-KBMenuSheet.release.xcconfig"; sourceTree = "<group>"; };
+		99804103207C35889E6CF5EC /* Pods-KBMenuSheet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBMenuSheet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBMenuSheet/Pods-KBMenuSheet.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1B71961EE52948003123CE /* MSModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSModule.h; sourceTree = "<group>"; };
+		9D1B71971EE52948003123CE /* MSModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSModule.m; sourceTree = "<group>"; };
+		9D210E8E1ED6D5D400A357A4 /* address.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = address.db; sourceTree = "<group>"; };
+		9D210E901ED6D66500A357A4 /* KBAddressPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAddressPickerController.h; sourceTree = "<group>"; };
+		9D210E911ED6D66500A357A4 /* KBAddressPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAddressPickerController.m; sourceTree = "<group>"; };
+		9D210E931ED7C82600A357A4 /* KBAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAddressProvider.h; sourceTree = "<group>"; };
+		9D210E941ED7C82600A357A4 /* KBAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAddressProvider.m; sourceTree = "<group>"; };
+		9D210E961ED7C83300A357A4 /* KBAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAddress.h; sourceTree = "<group>"; };
+		9D210E971ED7C83300A357A4 /* KBAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAddress.m; sourceTree = "<group>"; };
+		9D6A8FC71F1C9829001B2865 /* KBGenderPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBGenderPickerController.h; sourceTree = "<group>"; };
+		9D6A8FC81F1C9829001B2865 /* KBGenderPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBGenderPickerController.m; sourceTree = "<group>"; };
+		9D836AFC1E6819FC005D2715 /* KBMenuSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBMenuSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D836B001E6819FC005D2715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D836B021E6819FC005D2715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D836B031E6819FC005D2715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D836B051E6819FC005D2715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D836B061E6819FC005D2715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D836B091E6819FC005D2715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D836B0B1E6819FC005D2715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D836B0E1E6819FC005D2715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D836B101E6819FC005D2715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D836B181E681A20005D2715 /* KBActivityItemCopyToPasteboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemCopyToPasteboardView.h; sourceTree = "<group>"; };
+		9D836B191E681A20005D2715 /* KBActivityItemCopyToPasteboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemCopyToPasteboardView.m; sourceTree = "<group>"; };
+		9D836B1A1E681A20005D2715 /* KBActivityItemMailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemMailView.h; sourceTree = "<group>"; };
+		9D836B1B1E681A20005D2715 /* KBActivityItemMailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemMailView.m; sourceTree = "<group>"; };
+		9D836B1C1E681A20005D2715 /* KBActivityItemMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemMessageView.h; sourceTree = "<group>"; };
+		9D836B1D1E681A20005D2715 /* KBActivityItemMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemMessageView.m; sourceTree = "<group>"; };
+		9D836B1E1E681A20005D2715 /* KBActivityItemQQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemQQView.h; sourceTree = "<group>"; };
+		9D836B1F1E681A20005D2715 /* KBActivityItemQQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemQQView.m; sourceTree = "<group>"; };
+		9D836B201E681A20005D2715 /* KBActivityItemQQZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemQQZoneView.h; sourceTree = "<group>"; };
+		9D836B211E681A20005D2715 /* KBActivityItemQQZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemQQZoneView.m; sourceTree = "<group>"; };
+		9D836B221E681A20005D2715 /* KBActivityItemWeChatMomentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemWeChatMomentView.h; sourceTree = "<group>"; };
+		9D836B231E681A20005D2715 /* KBActivityItemWeChatMomentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemWeChatMomentView.m; sourceTree = "<group>"; };
+		9D836B241E681A20005D2715 /* KBActivityItemWeChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemWeChatView.h; sourceTree = "<group>"; };
+		9D836B251E681A20005D2715 /* KBActivityItemWeChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemWeChatView.m; sourceTree = "<group>"; };
+		9D836B261E681A20005D2715 /* KBActivityItemWeiboView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemWeiboView.h; sourceTree = "<group>"; };
+		9D836B271E681A20005D2715 /* KBActivityItemWeiboView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemWeiboView.m; sourceTree = "<group>"; };
+		9D836B281E681A20005D2715 /* KBActivityItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityItemView.h; sourceTree = "<group>"; };
+		9D836B291E681A20005D2715 /* KBActivityItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityItemView.m; sourceTree = "<group>"; };
+		9D836B2A1E681A20005D2715 /* KBActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityViewController.h; sourceTree = "<group>"; };
+		9D836B2B1E681A20005D2715 /* KBActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityViewController.m; sourceTree = "<group>"; };
+		9D836B2C1E681A20005D2715 /* KBCustomMenuSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBCustomMenuSheetView.h; sourceTree = "<group>"; };
+		9D836B2D1E681A20005D2715 /* KBCustomMenuSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBCustomMenuSheetView.m; sourceTree = "<group>"; };
+		9D836B2E1E681A20005D2715 /* KBDimmingBackdropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBDimmingBackdropView.h; sourceTree = "<group>"; };
+		9D836B2F1E681A20005D2715 /* KBDimmingBackdropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBDimmingBackdropView.m; sourceTree = "<group>"; };
+		9D836B301E681A20005D2715 /* KBInterfaceActionGroupHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBInterfaceActionGroupHeaderView.h; sourceTree = "<group>"; };
+		9D836B311E681A20005D2715 /* KBInterfaceActionGroupHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBInterfaceActionGroupHeaderView.m; sourceTree = "<group>"; };
+		9D836B321E681A20005D2715 /* KBInterfaceActionGroupSequenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBInterfaceActionGroupSequenceView.h; sourceTree = "<group>"; };
+		9D836B331E681A20005D2715 /* KBInterfaceActionGroupSequenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBInterfaceActionGroupSequenceView.m; sourceTree = "<group>"; };
+		9D836B341E681A20005D2715 /* KBInterfaceActionGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBInterfaceActionGroupView.h; sourceTree = "<group>"; };
+		9D836B351E681A20005D2715 /* KBInterfaceActionGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBInterfaceActionGroupView.m; sourceTree = "<group>"; };
+		9D836B361E681A20005D2715 /* KBMenuSheetButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetButtonItemView.h; sourceTree = "<group>"; };
+		9D836B371E681A20005D2715 /* KBMenuSheetButtonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetButtonItemView.m; sourceTree = "<group>"; };
+		9D836B381E681A20005D2715 /* KBMenuSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetController.h; sourceTree = "<group>"; };
+		9D836B391E681A20005D2715 /* KBMenuSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetController.m; sourceTree = "<group>"; };
+		9D836B3A1E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetControllerInterfaceActionGroupView.h; sourceTree = "<group>"; };
+		9D836B3B1E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetControllerInterfaceActionGroupView.m; sourceTree = "<group>"; };
+		9D836B3C1E681A20005D2715 /* KBMenuSheetHeaderItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetHeaderItemView.h; sourceTree = "<group>"; };
+		9D836B3D1E681A20005D2715 /* KBMenuSheetHeaderItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetHeaderItemView.m; sourceTree = "<group>"; };
+		9D836B3E1E681A20005D2715 /* KBMenuSheetItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetItemView.h; sourceTree = "<group>"; };
+		9D836B3F1E681A20005D2715 /* KBMenuSheetItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetItemView.m; sourceTree = "<group>"; };
+		9D836B401E681A20005D2715 /* KBMenuSheetPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetPresentationController.h; sourceTree = "<group>"; };
+		9D836B411E681A20005D2715 /* KBMenuSheetPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetPresentationController.m; sourceTree = "<group>"; };
+		9D836B421E681A20005D2715 /* KBMenuSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuSheetView.h; sourceTree = "<group>"; };
+		9D836B431E681A20005D2715 /* KBMenuSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuSheetView.m; sourceTree = "<group>"; };
+		9D836B441E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMeunSheetActivityActionSequenceView.h; sourceTree = "<group>"; };
+		9D836B451E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMeunSheetActivityActionSequenceView.m; sourceTree = "<group>"; };
+		9D836B5E1E681B08005D2715 /* KBMenuSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMenuSheet.h; sourceTree = "<group>"; };
+		9D9359E91F56920400C375B9 /* KBCustomActivityItemMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBCustomActivityItemMessageView.h; sourceTree = "<group>"; };
+		9D9359EA1F56920400C375B9 /* KBCustomActivityItemMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBCustomActivityItemMessageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D836AF91E6819FC005D2715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0F712B86923B663E38E202 /* libPods-KBMenuSheet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199DB1D9E24835C480D3DBDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				831AC17D98A7C32C9CACE5DB /* libPods-KBMenuSheet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D836AF31E6819FC005D2715 = {
+			isa = PBXGroup;
+			children = (
+				9D836AFE1E6819FC005D2715 /* KBMenuSheet */,
+				9D836AFD1E6819FC005D2715 /* Products */,
+				F9D7A276E7015B033FEA36C0 /* Pods */,
+				199DB1D9E24835C480D3DBDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D836AFD1E6819FC005D2715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D836AFC1E6819FC005D2715 /* KBMenuSheet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D836AFE1E6819FC005D2715 /* KBMenuSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9D836B161E681A20005D2715 /* KBMenuSheet */,
+				9D836B021E6819FC005D2715 /* AppDelegate.h */,
+				9D836B031E6819FC005D2715 /* AppDelegate.m */,
+				9D836B051E6819FC005D2715 /* ViewController.h */,
+				9D836B061E6819FC005D2715 /* ViewController.m */,
+				9D9359E91F56920400C375B9 /* KBCustomActivityItemMessageView.h */,
+				9D9359EA1F56920400C375B9 /* KBCustomActivityItemMessageView.m */,
+				9D1B71961EE52948003123CE /* MSModule.h */,
+				9D1B71971EE52948003123CE /* MSModule.m */,
+				9D836B081E6819FC005D2715 /* Main.storyboard */,
+				9D836B0B1E6819FC005D2715 /* Assets.xcassets */,
+				9D836B0D1E6819FC005D2715 /* LaunchScreen.storyboard */,
+				9D836B101E6819FC005D2715 /* Info.plist */,
+				9D210E8E1ED6D5D400A357A4 /* address.db */,
+				9D836AFF1E6819FC005D2715 /* Supporting Files */,
+			);
+			path = KBMenuSheet;
+			sourceTree = "<group>";
+		};
+		9D836AFF1E6819FC005D2715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D836B001E6819FC005D2715 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D836B161E681A20005D2715 /* KBMenuSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9D836B171E681A20005D2715 /* activities */,
+				9D836B281E681A20005D2715 /* KBActivityItemView.h */,
+				9D836B291E681A20005D2715 /* KBActivityItemView.m */,
+				9D836B2A1E681A20005D2715 /* KBActivityViewController.h */,
+				9D836B2B1E681A20005D2715 /* KBActivityViewController.m */,
+				9D836B2C1E681A20005D2715 /* KBCustomMenuSheetView.h */,
+				9D836B2D1E681A20005D2715 /* KBCustomMenuSheetView.m */,
+				9D836B2E1E681A20005D2715 /* KBDimmingBackdropView.h */,
+				9D836B2F1E681A20005D2715 /* KBDimmingBackdropView.m */,
+				9D836B301E681A20005D2715 /* KBInterfaceActionGroupHeaderView.h */,
+				9D836B311E681A20005D2715 /* KBInterfaceActionGroupHeaderView.m */,
+				9D836B321E681A20005D2715 /* KBInterfaceActionGroupSequenceView.h */,
+				9D836B331E681A20005D2715 /* KBInterfaceActionGroupSequenceView.m */,
+				9D836B341E681A20005D2715 /* KBInterfaceActionGroupView.h */,
+				9D836B351E681A20005D2715 /* KBInterfaceActionGroupView.m */,
+				9D836B361E681A20005D2715 /* KBMenuSheetButtonItemView.h */,
+				9D836B371E681A20005D2715 /* KBMenuSheetButtonItemView.m */,
+				9D836B381E681A20005D2715 /* KBMenuSheetController.h */,
+				9D836B391E681A20005D2715 /* KBMenuSheetController.m */,
+				9D836B3A1E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.h */,
+				9D836B3B1E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.m */,
+				9D836B3C1E681A20005D2715 /* KBMenuSheetHeaderItemView.h */,
+				9D836B3D1E681A20005D2715 /* KBMenuSheetHeaderItemView.m */,
+				9D836B3E1E681A20005D2715 /* KBMenuSheetItemView.h */,
+				9D836B3F1E681A20005D2715 /* KBMenuSheetItemView.m */,
+				9D836B401E681A20005D2715 /* KBMenuSheetPresentationController.h */,
+				9D836B411E681A20005D2715 /* KBMenuSheetPresentationController.m */,
+				9D836B421E681A20005D2715 /* KBMenuSheetView.h */,
+				9D836B431E681A20005D2715 /* KBMenuSheetView.m */,
+				9D836B441E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.h */,
+				9D836B451E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.m */,
+				9D210E901ED6D66500A357A4 /* KBAddressPickerController.h */,
+				9D210E911ED6D66500A357A4 /* KBAddressPickerController.m */,
+				9D210E931ED7C82600A357A4 /* KBAddressProvider.h */,
+				9D210E941ED7C82600A357A4 /* KBAddressProvider.m */,
+				9D210E961ED7C83300A357A4 /* KBAddress.h */,
+				9D210E971ED7C83300A357A4 /* KBAddress.m */,
+				9D6A8FC71F1C9829001B2865 /* KBGenderPickerController.h */,
+				9D6A8FC81F1C9829001B2865 /* KBGenderPickerController.m */,
+				9D836B5E1E681B08005D2715 /* KBMenuSheet.h */,
+			);
+			path = KBMenuSheet;
+			sourceTree = "<group>";
+		};
+		9D836B171E681A20005D2715 /* activities */ = {
+			isa = PBXGroup;
+			children = (
+				9D836B181E681A20005D2715 /* KBActivityItemCopyToPasteboardView.h */,
+				9D836B191E681A20005D2715 /* KBActivityItemCopyToPasteboardView.m */,
+				9D836B1A1E681A20005D2715 /* KBActivityItemMailView.h */,
+				9D836B1B1E681A20005D2715 /* KBActivityItemMailView.m */,
+				9D836B1C1E681A20005D2715 /* KBActivityItemMessageView.h */,
+				9D836B1D1E681A20005D2715 /* KBActivityItemMessageView.m */,
+				9D836B1E1E681A20005D2715 /* KBActivityItemQQView.h */,
+				9D836B1F1E681A20005D2715 /* KBActivityItemQQView.m */,
+				9D836B201E681A20005D2715 /* KBActivityItemQQZoneView.h */,
+				9D836B211E681A20005D2715 /* KBActivityItemQQZoneView.m */,
+				9D836B221E681A20005D2715 /* KBActivityItemWeChatMomentView.h */,
+				9D836B231E681A20005D2715 /* KBActivityItemWeChatMomentView.m */,
+				9D836B241E681A20005D2715 /* KBActivityItemWeChatView.h */,
+				9D836B251E681A20005D2715 /* KBActivityItemWeChatView.m */,
+				9D836B261E681A20005D2715 /* KBActivityItemWeiboView.h */,
+				9D836B271E681A20005D2715 /* KBActivityItemWeiboView.m */,
+			);
+			path = activities;
+			sourceTree = "<group>";
+		};
+		F9D7A276E7015B033FEA36C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99804103207C35889E6CF5EC /* Pods-KBMenuSheet.debug.xcconfig */,
+				8B6DB08BC525029C035DA7B6 /* Pods-KBMenuSheet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D836AFB1E6819FC005D2715 /* KBMenuSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D836B131E6819FC005D2715 /* Build configuration list for PBXNativeTarget "KBMenuSheet" */;
+			buildPhases = (
+				BCD199FF01D75D561535B4D6 /* [CP] Check Pods Manifest.lock */,
+				9D836AF81E6819FC005D2715 /* Sources */,
+				9D836AF91E6819FC005D2715 /* Frameworks */,
+				9D836AFA1E6819FC005D2715 /* Resources */,
+				54F947BAF7CF109143E8D131 /* [CP] Embed Pods Frameworks */,
+				56482FF9610C02A8D4F21574 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBMenuSheet;
+			productName = KBMenuSheet;
+			productReference = 9D836AFC1E6819FC005D2715 /* KBMenuSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D836AF41E6819FC005D2715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kuaibao;
+				TargetAttributes = {
+					9D836AFB1E6819FC005D2715 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HD8M8UJ4YA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D836AF71E6819FC005D2715 /* Build configuration list for PBXProject "KBMenuSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D836AF31E6819FC005D2715;
+			productRefGroup = 9D836AFD1E6819FC005D2715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D836AFB1E6819FC005D2715 /* KBMenuSheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D836AFA1E6819FC005D2715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D210E8F1ED6D5D400A357A4 /* address.db in Resources */,
+				9D836B0F1E6819FC005D2715 /* LaunchScreen.storyboard in Resources */,
+				9D836B0C1E6819FC005D2715 /* Assets.xcassets in Resources */,
+				9D836B0A1E6819FC005D2715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54F947BAF7CF109143E8D131 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBMenuSheet/Pods-KBMenuSheet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56482FF9610C02A8D4F21574 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBMenuSheet/Pods-KBMenuSheet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD199FF01D75D561535B4D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D836AF81E6819FC005D2715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9359EB1F56920400C375B9 /* KBCustomActivityItemMessageView.m in Sources */,
+				9D6A8FC91F1C9829001B2865 /* KBGenderPickerController.m in Sources */,
+				9D836B4F1E681A20005D2715 /* KBActivityViewController.m in Sources */,
+				9D836B5A1E681A20005D2715 /* KBMenuSheetPresentationController.m in Sources */,
+				9D836B071E6819FC005D2715 /* ViewController.m in Sources */,
+				9D836B551E681A20005D2715 /* KBMenuSheetButtonItemView.m in Sources */,
+				9D836B591E681A20005D2715 /* KBMenuSheetItemView.m in Sources */,
+				9D836B531E681A20005D2715 /* KBInterfaceActionGroupSequenceView.m in Sources */,
+				9D836B521E681A20005D2715 /* KBInterfaceActionGroupHeaderView.m in Sources */,
+				9D836B561E681A20005D2715 /* KBMenuSheetController.m in Sources */,
+				9D836B581E681A20005D2715 /* KBMenuSheetHeaderItemView.m in Sources */,
+				9D836B4C1E681A20005D2715 /* KBActivityItemWeChatView.m in Sources */,
+				9D836B5C1E681A20005D2715 /* KBMeunSheetActivityActionSequenceView.m in Sources */,
+				9D1B71981EE52948003123CE /* MSModule.m in Sources */,
+				9D836B571E681A20005D2715 /* KBMenuSheetControllerInterfaceActionGroupView.m in Sources */,
+				9D210E981ED7C83300A357A4 /* KBAddress.m in Sources */,
+				9D836B041E6819FC005D2715 /* AppDelegate.m in Sources */,
+				9D836B4E1E681A20005D2715 /* KBActivityItemView.m in Sources */,
+				9D210E921ED6D66500A357A4 /* KBAddressPickerController.m in Sources */,
+				9D836B461E681A20005D2715 /* KBActivityItemCopyToPasteboardView.m in Sources */,
+				9D210E951ED7C82600A357A4 /* KBAddressProvider.m in Sources */,
+				9D836B481E681A20005D2715 /* KBActivityItemMessageView.m in Sources */,
+				9D836B011E6819FC005D2715 /* main.m in Sources */,
+				9D836B511E681A20005D2715 /* KBDimmingBackdropView.m in Sources */,
+				9D836B471E681A20005D2715 /* KBActivityItemMailView.m in Sources */,
+				9D836B5B1E681A20005D2715 /* KBMenuSheetView.m in Sources */,
+				9D836B4D1E681A20005D2715 /* KBActivityItemWeiboView.m in Sources */,
+				9D836B491E681A20005D2715 /* KBActivityItemQQView.m in Sources */,
+				9D836B4A1E681A20005D2715 /* KBActivityItemQQZoneView.m in Sources */,
+				9D836B4B1E681A20005D2715 /* KBActivityItemWeChatMomentView.m in Sources */,
+				9D836B501E681A20005D2715 /* KBCustomMenuSheetView.m in Sources */,
+				9D836B541E681A20005D2715 /* KBInterfaceActionGroupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D836B081E6819FC005D2715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D836B091E6819FC005D2715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D836B0D1E6819FC005D2715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D836B0E1E6819FC005D2715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D836B111E6819FC005D2715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D836B121E6819FC005D2715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D836B141E6819FC005D2715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99804103207C35889E6CF5EC /* Pods-KBMenuSheet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD8M8UJ4YA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KBMenuSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Wechat/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/AlipayShare/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Line/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Whatsapp/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Instagram/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Tumblr/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.kuaidiyuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D836B151E6819FC005D2715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6DB08BC525029C035DA7B6 /* Pods-KBMenuSheet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD8M8UJ4YA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KBMenuSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Wechat/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/AlipayShare/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Line/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Whatsapp/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Instagram/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Tumblr/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
+					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.kuaidiyuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D836AF71E6819FC005D2715 /* Build configuration list for PBXProject "KBMenuSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D836B111E6819FC005D2715 /* Debug */,
+				9D836B121E6819FC005D2715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D836B131E6819FC005D2715 /* Build configuration list for PBXNativeTarget "KBMenuSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D836B141E6819FC005D2715 /* Debug */,
+				9D836B151E6819FC005D2715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D836AF41E6819FC005D2715 /* Project object */;
+}

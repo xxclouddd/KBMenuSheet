@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qF3-f2-jpQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="wUw-xy-b9k">
+            <objects>
+                <navigationController id="qF3-f2-jpQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hN4-bm-NbM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SVP-yb-Kwv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="THC-73-oPU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1271" y="303"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTN-T6-aOy">
+                                <rect key="frame" x="168.5" y="164" width="39" height="30"/>
+                                <state key="normal" title="sheet"/>
+                                <connections>
+                                    <action selector="button1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kGW-m3-09H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zp6-x6-1pS">
+                                <rect key="frame" x="168.5" y="244" width="38" height="30"/>
+                                <state key="normal" title="share"/>
+                                <connections>
+                                    <action selector="button2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u45-Qn-sYy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxR-ij-2tE">
+                                <rect key="frame" x="160" y="318" width="55" height="30"/>
+                                <state key="normal" title="address"/>
+                                <connections>
+                                    <action selector="button3Acton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4kG-B2-CH4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL4-Vy-zCy">
+                                <rect key="frame" x="168" y="388" width="40" height="30"/>
+                                <state key="normal" title="gener"/>
+                                <connections>
+                                    <action selector="button4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lO6-j6-Dhy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8L-5U-0AF">
+                                <rect key="frame" x="127.5" y="453" width="121" height="30"/>
+                                <state key="normal" title="customShareItem"/>
+                                <connections>
+                                    <action selector="customShareItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="939-1b-8rn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fTN-T6-aOy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Eo3-gO-DpD"/>
+                            <constraint firstItem="GL4-Vy-zCy" firstAttribute="top" secondItem="gxR-ij-2tE" secondAttribute="bottom" constant="40" id="HNB-MN-MJ0"/>
+                            <constraint firstItem="G8L-5U-0AF" firstAttribute="top" secondItem="GL4-Vy-zCy" secondAttribute="bottom" constant="35" id="WWk-5p-6o7"/>
+                            <constraint firstItem="Zp6-x6-1pS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XRo-9m-sXQ"/>
+                            <constraint firstItem="GL4-Vy-zCy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a3e-go-Cob"/>
+                            <constraint firstItem="fTN-T6-aOy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="af3-le-pR0"/>
+                            <constraint firstItem="G8L-5U-0AF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kNL-Mc-M1L"/>
+                            <constraint firstItem="gxR-ij-2tE" firstAttribute="top" secondItem="Zp6-x6-1pS" secondAttribute="bottom" constant="44" id="n9b-3I-KGU"/>
+                            <constraint firstItem="gxR-ij-2tE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s7m-2L-WYK"/>
+                            <constraint firstItem="Zp6-x6-1pS" firstAttribute="top" secondItem="fTN-T6-aOy" secondAttribute="bottom" constant="50" id="yy6-sR-fqQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="007-fS-VrK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-417" y="216"/>
+        </scene>
+    </scenes>
+</document>

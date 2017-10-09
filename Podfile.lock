@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - KBModule (0.0.6)
+  - UMengSocial (5.0)
+
+DEPENDENCIES:
+  - FMDB
+  - KBModule (from `https://github.com/xxclouddd/KBModule`)
+  - UMengSocial
+
+EXTERNAL SOURCES:
+  KBModule:
+    :git: https://github.com/xxclouddd/KBModule
+
+CHECKOUT OPTIONS:
+  KBModule:
+    :commit: e9c560124bd3df3726ceafe7020181316ce12e95
+    :git: https://github.com/xxclouddd/KBModule
+
+SPEC CHECKSUMS:
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  KBModule: 640f28d0a75a1c0bd61abb3ffb3b02e49afe476b
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
+
+PODFILE CHECKSUM: 87fe1d2c7f1a57f2092db4de227098a82fdef617
+
+COCOAPODS: 1.2.0
