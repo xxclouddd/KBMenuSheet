@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
-#source 'ssh://git@gitlab.kuaidihelp.com:2020/iOS/PrivatePodsRepository.git'
+#source 'ssh://git@gitlab.xiaoixong.com:2020/iOS/PrivatePodsRepository.git'
 #source 'https://github.com/CocoaPods/Specs.git'
 
 target 'KBMenuSheet' do

@@ -3,7 +3,7 @@
 //  KBMenuSheet
 //
 //  Created by 肖雄 on 17/7/17.
-//  Copyright © 2017年 kuaibao. All rights reserved.
+//  Copyright © 2017年 xiaoxiong. All rights reserved.
 //
 
 #import "KBGenderPickerController.h"

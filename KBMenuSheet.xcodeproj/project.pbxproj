@@ -562,7 +562,7 @@
 					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
 					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.kuaidiyuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxiong.xiaoxiong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -591,7 +591,7 @@
 					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
 					"$(PODS_ROOT)/UmengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.kuaidiyuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxiong.xiaoxiong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
